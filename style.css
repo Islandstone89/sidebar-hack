@@ -4,8 +4,8 @@
 }
 
 :root {
-    --clr-black: #000;
-    --clr-black-light: #151515;
+    --clr-black: hsl(0, 0%, 0%);
+    --clr-almost-black: hsl(0, 0%, 8%);
     --clr-orange-300: #F8A145;
     --clr-orange-400: #F07900;
     --clr-orange-500: #D35100;
@@ -30,7 +30,7 @@ body {
     padding: 1rem;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-color: var(--clr-black);
+    background-color: var(--clr-almost-black);
     color: var(--clr-blue);
 }
 
